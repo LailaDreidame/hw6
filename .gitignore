@@ -1,0 +1,14 @@
+# secrets: never commit the real key (use .env.example)
+.env
+.env.*
+!.env.example
+
+# local environments
+.venv
+.venv/
+__pycache__/
+*.pyc
+
+# temp and OS files
+*.tmp
+.DS_Store
